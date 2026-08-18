@@ -13,6 +13,9 @@ data/*.csv
 data/*.xlsx
 data/*.xls
 data/*.json
+data/*.parquet
+data/*.sav
+data/*.dta
 
 # Python and notebooks
 __pycache__/
@@ -26,3 +29,5 @@ venv/
 *.swp
 *.swo
 
+# Generated participant-level intermediate files
+combined_*.csv

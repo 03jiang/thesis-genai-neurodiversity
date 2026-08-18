@@ -33,11 +33,10 @@ The thesis reports a post-publication source audit, but the item-level source-au
 - `data/`: data-availability statement only; no row-level response data
 - `post_thesis_prototype/`: materials clearly separated from the submitted thesis work
 
-At initial repository creation, no existing thesis files were present in the working directory to archive. Analysis scripts, survey exports, and aggregated outputs should be added only after confirming that they match the final thesis materials and contain no sensitive information.
+The analysis directory contains a thesis-final supplementary snapshot prepared against the final submitted PDF. Selected aggregated outputs are included only where they match the final thesis and do not expose participant-level records. The underlying Excel exports, row-level intermediate CSV files, and participant-level PCA projection are excluded.
 
 ## Licensing
 
 Source code in this repository is licensed under the MIT License; see `LICENSE`.
 
 The questionnaires and other textual research materials are **not** licensed under the MIT License. No permission for reuse, redistribution, adaptation, or commercial use of those materials is granted unless an explicit license is added later.
-

@@ -1,0 +1,3 @@
+Method,Chi-square,df,Monte Carlo p,Cramer's V
+K-Means,9.953,10,0.4453,0.258
+K-Modes,10.674,10,0.3754,0.267
