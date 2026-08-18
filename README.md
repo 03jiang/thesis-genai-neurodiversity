@@ -31,7 +31,6 @@ The thesis reports a post-publication source audit, but the item-level source-au
 - `analysis/`: archived analysis scripts and dependency information
 - `outputs/`: selected non-sensitive aggregated figures and tables
 - `data/`: data-availability statement only; no row-level response data
-- `post_thesis_prototype/`: materials clearly separated from the submitted thesis work
 
 The analysis directory contains a thesis-final supplementary snapshot prepared against the final submitted PDF. Selected aggregated outputs are included only where they match the final thesis and do not expose participant-level records. The underlying Excel exports, row-level intermediate CSV files, and participant-level PCA projection are excluded.
 
