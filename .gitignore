@@ -1,0 +1,28 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+credentials/
+secrets/
+
+# Private and raw research materials
+raw_data/
+private/
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Operating-system and editor files
+.DS_Store
+*.swp
+*.swo
+
