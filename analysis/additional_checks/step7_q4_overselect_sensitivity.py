@@ -7,13 +7,13 @@ from pathlib import Path
 
 DATA_PATH = Path(__file__).resolve().parents[2] / "data" / "combined_75.csv"
 df = pd.read_csv(DATA_PATH)
-print(df.columns.tolist())   
+print(df.columns.tolist())
 
-q4_cols = [c for c in df.columns if c.startswith("Q4")]  
-arm_col = "source"        
+q4_cols = [c for c in df.columns if c.startswith("Q4")]
+arm_col = "source"
 
 n_selected = df[q4_cols].sum(axis=1)
-mask = n_selected > 3                     
+mask = n_selected > 3
 print("over-selectors:", mask.sum(), "| arm:", df.loc[mask, arm_col].tolist())
 print("their pick counts:", n_selected[mask].tolist())
 

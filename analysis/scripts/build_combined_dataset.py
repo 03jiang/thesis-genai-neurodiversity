@@ -29,7 +29,7 @@ def load_cn(path):
     wb = load_workbook(path, read_only=True)
     ws = wb.active
     rows = list(ws.iter_rows(values_only=True))
-    data = rows[1:]                                
+    data = rows[1:]
 
     q5_char_to_label = {"A": "Yes", "B": "No", "C": "Prefer"}
     records = []
@@ -51,7 +51,7 @@ def load_cn(path):
 
 def load_en(path):
     wb = load_workbook(path, read_only=True)
-    ws = wb["Dataset"]                            
+    ws = wb["Dataset"]
     rows = list(ws.iter_rows(values_only=True))
     data = rows[1:]
 

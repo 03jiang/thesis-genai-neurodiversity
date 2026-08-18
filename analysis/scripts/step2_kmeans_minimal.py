@@ -1,6 +1,6 @@
 
-INPUT_CSV  = "combined_75.csv"  
-OUTPUT_DIR = "."                 
+INPUT_CSV  = "combined_75.csv"
+OUTPUT_DIR = "."
 
 import os
 import pandas as pd
@@ -22,9 +22,9 @@ print(f"特征矩阵形状: {X.shape}   (75 × 18)")
 
 
 kmeans = KMeans(
-    n_clusters=6,     
-    n_init=10,        
-    random_state=42,  
+    n_clusters=6,
+    n_init=10,
+    random_state=42,
 )
 df["cluster"] = kmeans.fit_predict(X)
 

@@ -36,7 +36,7 @@ print(f"簇大小分布: {dict(pd.Series(kmodes_labels).value_counts().sort_inde
 
 
 K_RANGE = range(2, 11)
-N_SEEDS = 10  
+N_SEEDS = 10
 
 records = []
 for k in K_RANGE:

@@ -20,7 +20,7 @@ feature_cols = (
     + [f"Q4_{L}" for L in "ABCDEF"]
 )
 X = df[feature_cols].values
-K_RANGE = range(2, 11)   
+K_RANGE = range(2, 11)
 
 
 print("=" * 55)
@@ -33,7 +33,7 @@ for k in K_RANGE:
     print(f"{k:>3} {km.inertia_:>10.2f} {sil:>12.4f}")
 
 
-N_SEEDS = 30   
+N_SEEDS = 30
 
 records = []
 for k in K_RANGE:
@@ -63,7 +63,7 @@ print(f"\n>>> Silhouette 峰值在 k = {best_k_sil} "
 
 wcss = summary["wcss_mean"].values
 second_diff = np.diff(wcss, n=2)
-elbow_idx = np.argmax(second_diff) + 1   
+elbow_idx = np.argmax(second_diff) + 1
 best_k_elbow = list(K_RANGE)[elbow_idx]
 print(f">>> Elbow 检测（二阶差分近似）在 k = {best_k_elbow}")
 
