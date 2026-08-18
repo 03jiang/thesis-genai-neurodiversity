@@ -57,4 +57,3 @@ Select one option.
 - **A.** Yes
 - **B.** No
 - **C.** Prefer not to say
-
