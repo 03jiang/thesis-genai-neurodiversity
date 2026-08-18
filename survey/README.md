@@ -12,6 +12,4 @@ The Chinese-language administration also included a prior screening item about p
 
 The English and Chinese survey versions were not formally validated as cross-cultural equivalents. No psychometric or cross-cultural equivalence claim is made here.
 
-Original exported versions should be preserved when added. Readable Markdown versions may be provided alongside them without altering the questionnaire content.
-
 The public Markdown versions were transcribed from aggregate survey reports with response counts, percentages, charts, and report metadata removed. The aggregate reports themselves are not included here as questionnaire instruments.
