@@ -6,6 +6,12 @@ This repository contains supplementary materials associated with the master's th
 - **University:** University of Copenhagen
 - **Submitted:** August 2026
 
+## Related publication
+
+Earlier research: Ying Jiang and Boris Düdder (2026). **A Trait-Based Prioritization Framework: Teaching Practices to Support Neurodivergent Learners in Computer Science Education.** In *Proceedings of the 18th International Conference on Computer Supported Education (CSEDU 2026)*, Volume 2, pp. 1877–1885. SciTePress. [Publisher record](https://www.scitepress.org/PublishedPapers/2026/145846/) · [DOI: 10.5220/0014584600004021](https://doi.org/10.5220/0014584600004021).
+
+This conference paper is related earlier work, distinct from the master's thesis for which this repository provides supplementary materials.
+
 ## Public materials
 
 - English survey instrument
@@ -23,7 +29,7 @@ This repository contains supplementary materials associated with the master's th
 
 Participant-level data are not publicly released, and this repository should not be interpreted as containing the complete research dataset.
 
-The thesis reports a post-publication source audit, but the item-level source-audit record is not included in this public repository.
+The master's thesis reports a source audit; the item-level source-audit record is not included in this public repository.
 
 ## Repository structure
 
@@ -33,6 +39,10 @@ The thesis reports a post-publication source audit, but the item-level source-au
 - `data/`: data-availability statement only; no row-level response data
 
 The analysis directory contains a thesis-final supplementary snapshot prepared against the final submitted PDF. Selected aggregated outputs are included only where they match the final thesis and do not expose participant-level records. The underlying Excel exports, row-level intermediate CSV files, and participant-level PCA projection are excluded.
+
+## Re-running the analysis
+
+The analysis scripts require the non-public raw Excel files `chinese_survey.xlsx` and `english_survey.xlsx` and cannot be rerun from this public repository alone. Installing the dependencies does not supply these data. The files in `outputs/` are archived aggregate results corresponding to the final submitted thesis, not results regenerated when the repository is cloned. See [analysis notes](analysis/README.md) and [data availability](data/README.md) for the scope and limitations.
 
 ## Licensing
 
